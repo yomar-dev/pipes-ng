@@ -29,4 +29,5 @@ export class AppComponent {
 
     fecha = new Date();
     video = 'KTugvOTfHVw';
+    activar = true;
 }
