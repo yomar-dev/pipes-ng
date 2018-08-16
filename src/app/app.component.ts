@@ -20,5 +20,9 @@ export class AppComponent {
             carrera: 20,
             apartamento: '202'
         }
-    }
+    };
+
+    valorDePromesa = new Promise((resolve, reject) => {
+        setTimeout(() => resolve('Llego la data!!'), 2500);
+    });
 }
